@@ -1,0 +1,121 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+   background-color: black;
+}
+
+.heading {
+  text-align: center;
+  margin: 6% 40% 0% 0%;
+  font-size: 7rem;
+  font-weight: bold;
+  font-family: 'Saira', sans-serif;
+}
+
+.name, .decsription {
+  text-align: center;
+  margin-right: 40%;
+  font-size: 2rem;
+  font-family: 'Saira', sans-serif;
+}
+
+.heading, .name, .decsription, .skill {
+  color: #06113C;
+}
+
+.last {
+  text-align: center;
+  margin: auto;
+  letter-spacing: 4rem;
+  margin: 2% 42% 0% 0%;
+}
+
+.end {
+  margin: 2% 40% 0% 0%;
+  text-align: center;
+  letter-spacing: 3rem;
+}
+
+.social {
+  color: #06113C;
+}
+
+.connect {
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 15% 40% 0% 0%;
+  letter-spacing: 1.5rem;
+}
+
+a:hover {
+  color: #350f0d;
+}
+
+@media (max-width: 1291px) {
+  .heading {
+    font-size: 6rem;
+  }
+
+  .name, .decsription {
+    font-size: 2rem;
+  }
+
+  .connect {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 1104px) {
+  .heading {
+    font-size: 5rem;
+  }
+
+  .connect {
+    margin-top: 27%;
+  }
+}
+
+@media (max-width: 922px) {
+  .heading {
+    font-size: 4rem;
+  }
+
+  .name, .decsription {
+    font-size: 2rem;
+  }
+
+  .connect {
+    margin-top: 37%;
+  }
+}
+
+@media (max-width: 852px) {
+  body {
+    background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdoaXRlJTIwc29saWR8ZW58MHwwfDB8d2hpdGV8&auto=format&fit=crop&w=500&q=60");
+    background-size: contain;
+  }
+
+  .heading {
+    margin: 8% 0% 0% 0%;
+  }
+
+  .connect {
+    letter-spacing: 9px;
+    text-align: center;
+    margin: 34% 0% 0% 0%;
+  }
+
+  .social {
+    letter-spacing: normal;
+  }
+
+  .end {
+    margin: 3% 0% 0% 0%;
+  }
+
+  .name, .decsription, .last {
+    margin: 3% 0% 0% 0%;
+  }
+
+}
